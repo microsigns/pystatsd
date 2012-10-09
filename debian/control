@@ -1,0 +1,12 @@
+Source: python-pystatsd
+Section: python
+Priority: optional
+Maintainer: James Socol <james@mozilla.com>
+Homepage: https://github.com/jsocol/pystatsd
+Build-Depends: debhelper, python-support
+
+Package: python-pystatsd
+Architecture: all
+Depends: ${python:Depends}, python-support
+Provides: ${python:Provides}
+Description: This is a Python client for the statsd daemon.
